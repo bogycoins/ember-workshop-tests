@@ -1,0 +1,10 @@
+<h2>New Category</h2>
+
+<form>
+  <div class="form-group">
+    <label for="title">Title</label>
+    {{input type="text" class="form-control" placeholder="Category title..." value=title}}
+  </div>
+  <button type="button" {{action 'submit'}} class="btn btn-primary">Save</button>
+  <button type="button" {{action 'back'}} class="btn btn-secondary">Cancel</button>
+</form>

@@ -1,0 +1,27 @@
+<h2>New Product</h2>
+<form class="needs-validation" novalidate>
+  {{!-- <div class="form-group">
+    <label for="title">Category</label>
+    <select class="form-control" onchange={{action "setCategory" value="target.value"}}>
+      <option value="">Please select</option>
+      {{#each model.categories as |category|}}
+      <option value={{category.id}}>{{category.title}}</option>
+      {{/each}}
+    </select>
+  </div> --}}
+  <div class="form-group">
+    <label for="title">Title</label>
+    {{input type="text" class="form-control" classBinding="titleErrors.length:is-invalid" placeholder="Product title..." value=title}}
+    {{#each titleErrors as |error|}}
+    <div class="invalid-feedback">{{error.message}}</div>
+    {{/each}}
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    {{textarea class="form-control" classBinding="titleErrors.length:is-invalid"  placeholder="Description here..." rows="3" value=description}}
+    {{#each descriptionErrors as |error|}}
+    <div class="invalid-feedback">{{error.message}}</div>
+    {{/each}}
+  </div>
+  <button type="button" {{action 'submit'}} class="btn btn-primary">Save</button>
+</form>

@@ -1,0 +1,7 @@
+<h2>Products [{{#link-to 'products.new'}}Add New{{/link-to}}]</h2>
+
+<div class="row">
+  {{#each model as |product|}}
+  {{product-list-item product=product}}
+  {{/each}}
+</div>

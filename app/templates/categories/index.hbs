@@ -1,0 +1,23 @@
+<h2>Categories [{{#link-to 'categories.new'}}Add New{{/link-to}}]</h2>
+<table class="table mt-4">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each model as |category index|}}
+    <tr>
+      <td>{{index}}</td>
+      <td>{{category.title}}</td>
+    </tr>
+    {{else}}
+    <tr>
+      <td colspan="3">No categories</td>
+    </tr>
+    {{/each}}
+  </tbody>
+
+
+</table>
