@@ -1,0 +1,91 @@
+{
+  "products": {
+    "data": [
+      {
+        "type": "product",
+        "id": "ca1ff950-b823-11e9-9078-cfc315a0aacc",
+        "attributes": {
+          "title": "Title",
+          "description": "Description"
+        }
+      }
+    ]
+  },
+  "persons": {
+    "data": [
+      {
+        "type": "person",
+        "id": "fcd856e4-2b35-4e18-abf7-41920cef39de",
+        "attributes": {
+          "name": "Marian Popescu",
+          "email": "email1@mailinator.com"
+        }
+      },
+      {
+        "type": "person",
+        "id": "fcd856e4-2b35-4e18-abf7-41920cef39dx",
+        "attributes": {
+          "name": "Ionut Popescu",
+          "email": "email2@mailinator.com"
+        }
+      },
+      {
+        "type": "person",
+        "id": "ef8bb1e0-b7a4-11e9-98c9-0b3b69148c91",
+        "attributes": {
+          "name": "some name",
+          "email": "email3@mailinator.com"
+        }
+      },
+      {
+        "type": "person",
+        "id": "5e712130-b7a5-11e9-9f67-c5c18cba0a45",
+        "attributes": {
+          "name": "Ruben Ar",
+          "email": "some@mailinator.com"
+        }
+      },
+      {
+        "type": "person",
+        "id": "6073a7f0-b7a5-11e9-b585-19aa482cdcd9",
+        "attributes": {
+          "name": "Ruben Ar",
+          "email": "some@mailinator.com"
+        }
+      },
+      {
+        "type": "person",
+        "id": "67f5a730-b7a5-11e9-a8e1-b3e3743fc6e2",
+        "attributes": {
+          "name": "Ruben Ar",
+          "email": "some@mailinator.com"
+        }
+      }
+    ]
+  },
+  "categories": {
+    "data": [
+      {
+        "type": "category",
+        "id": "1",
+        "attributes": {
+          "title": "Category #1"
+        }
+      },
+      {
+        "type": "category",
+        "id": "63b47870-b810-11e9-b36c-43aa36b997d2",
+        "attributes": {
+          "title": "Beverages"
+        }
+      },
+      {
+        "type": "category",
+        "id": "0e46aef0-b818-11e9-b135-657a9504dd12",
+        "attributes": {
+          "title": "Fast Food"
+        }
+      }
+    ]
+  }
+}
