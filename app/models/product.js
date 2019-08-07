@@ -1,4 +1,5 @@
 import DS from 'ember-data';
+import Ember from 'ember';
 import { validator, buildValidations } from 'ember-cp-validations';
 
 const Validations = buildValidations({
@@ -20,5 +21,8 @@ const Validations = buildValidations({
 export default DS.Model.extend(Validations, {
   title: DS.attr('string'),
   description: DS.attr('string'),
-  category: DS.belongsTo('category')
+
+  fullTitle: Ember.computed('title', function(){
+    return 'Product: ' + this.get('title');
+  })
 });
