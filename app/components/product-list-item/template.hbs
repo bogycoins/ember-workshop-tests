@@ -1,5 +1,9 @@
-<img src="https://via.placeholder.com/300?text=Product+image" class="img-fluid" alt="Responsive image">
+<img src="https://via.placeholder.com/300?text=Product+image"
+     class="{{if isEnabled 'enabled' 'disabled'}} img-fluid" alt="Responsive image" {{action 'changeState'}}>
 <h2>{{product.title}}</h2>
-{{!-- <h4>{{product.category.title}}|</h4> --}}
 <p>{{product.description}}</p>
 <p>{{link-to 'Details' 'products.edit' product class="btn btn-secondary"}}</p>
+
+{{#if i}}
+  Clicked {{i}} times
+{{/if}}

@@ -8,6 +8,14 @@
           "title": "Title",
           "description": "Description"
         }
+      },
+      {
+        "type": "product",
+        "id": "72f528f0-b95c-11e9-b9f7-5d61267d6397",
+        "attributes": {
+          "title": "as",
+          "description": "sa"
+        }
       }
     ]
   },
@@ -84,6 +92,13 @@
         "id": "0e46aef0-b818-11e9-b135-657a9504dd12",
         "attributes": {
           "title": "Fast Food"
+        }
+      },
+      {
+        "type": "category",
+        "id": "7b9b5250-b95b-11e9-985f-aba62d76c5b2",
+        "attributes": {
+          "title": "test"
         }
       }
     ]
