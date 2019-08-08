@@ -8,6 +8,5 @@ moduleFor('controller:application', 'Unit | Controller | application', {
 // Replace this with your real tests.
 test('it exists', function(assert) {
   let controller = this.subject();
-  debugger
   assert.ok(controller);
 });
